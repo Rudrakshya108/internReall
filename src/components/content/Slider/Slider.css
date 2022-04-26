@@ -1,0 +1,51 @@
+.sliderimg{
+    width: 100%;
+    height: 500px;
+    border-radius:0;
+    object-fit: cover;
+    align-items:center;
+    text-align: center;
+    justify-content:center;
+    margin-top: 20px;
+    
+  }
+  .slider{
+      margin-top: 50px;
+  }
+
+ 
+
+  
+.appKoPara p {
+    position: relative;
+  
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 300px 0 300px;
+  }
+  .appKoPara p:before,
+  .appKoPara p:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 2px;
+    content: "\a0";
+    background-color: black;
+  }
+  .appKoPara p:before {
+    margin-left: -50%;
+    text-align: right;
+  }
+  
+  .sliderHeader h1{
+ 
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .sliderHeader h1 span{
+    font-size:30px;
+  }
+  

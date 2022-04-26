@@ -1,0 +1,84 @@
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.footerLeft {
+  width: 25%;
+}
+
+.footerCenter {
+  width: 25%;
+}
+
+.footerRight {
+  width: 25%;
+}
+
+.footerCenterAndRightBich {
+  width: 25%;
+}
+
+.forLogoAndDesc .forLogo img {
+  border-radius: 0;
+
+  height: 150px;
+  width: 150px;
+  margin: 70px;
+  margin-bottom: 20px;
+}
+
+.forLogoAndDesc {
+  display: inline-block;
+}
+
+.footerCenter h4,
+.footerRight h4,
+.footerCenterAndRightBich h4 {
+  margin: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.forDesc p {
+  color: white;
+}
+
+.uiList ul li {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.uiList ul li a {
+  color: green;
+}
+
+.uiList ul li a:hover {
+  color: lightgreen;
+}
+.uiList ul li a img {
+  height: 35px;
+  width: 35px;
+}
+
+.footerMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyRight p {
+  color: white;
+  background-color: black;
+  text-align: right;
+  margin-right: 10%;
+  border-top: 1px solid white;
+}

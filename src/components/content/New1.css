@@ -1,0 +1,54 @@
+.images {
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-left: -20%;
+  padding-right: 5%;
+  width: 100%;
+}
+
+p,
+h1 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.weBestTitle p {
+  position: relative;
+
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 300px 0 300px;
+}
+.weBestTitle p:before,
+.weBestTitle p:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 2px;
+  content: "\a0";
+  background-color: black;
+}
+.weBestTitle p:before {
+  margin-left: -50%;
+  text-align: right;
+}
+
+.weBestMaind h1{
+ 
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.weBestMaind h1 span{
+  font-size:30px;
+}
+
