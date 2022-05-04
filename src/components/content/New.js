@@ -1,7 +1,7 @@
 import React from 'react';
 import './New.css';
 import logo from './bbb.jpg';
-import logo1 from './aaa.jpeg';
+import logo1 from './aaa.jpg';
 
 
 function New(props) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './bbb.jpg';
-import logo1 from './aaa.jpeg';
+import logo1 from './aaa.jpg';
 import logo2 from './ccc.jpg';
 import logo3 from './ddd.jpg';
 
@@ -9,12 +9,12 @@ import './New1.css';
 
 function New1() {
     const imageSizes=[{image:logo, names:'Mr Bibek', position:'Senior Manager'},
-    {image:logo1, names:'Mrs Jesica',position:'Senior Manager' },
+    {image:logo1, names:'Mrs Aneka',position:'Senior Manager' },
     {image:logo2, names:'Mrs Ramita',position:'React Expert' },
-    {image:logo3, names:'Mrs Susmita',position:'Software Engineer' },
+    {image:logo3, names:'Mrs Kamala',position:'Software Engineer' },
     
    
-    {image:logo2, names:'Mr Gaurab',position:'Phyton expert' },
+    {image:logo2, names:'Mrs Ankea',position:'Raect Developer' },
 ];
     return (
         <>

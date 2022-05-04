@@ -3,7 +3,7 @@ import Phone from './Phone';
 
 function Message() {
     const item=[
-        {message:"Bibek dada, you are looking great. Hey how can I help you?"},
+        {message:"Hello Sujan Dada, you are looking great. Hey how can I help you?"},
        ]
     return (
         <>

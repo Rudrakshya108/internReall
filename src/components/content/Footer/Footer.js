@@ -104,7 +104,7 @@ function Footer() {
         </div>
 
         <div className="copyRight">
-                <p>Copyright@gaurabjii,Kathmandu</p>
+                <p>Copyright@Anika,Nepal</p>
             </div>
 
         </div>

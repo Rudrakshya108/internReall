@@ -19,7 +19,7 @@ function Phone(props) {
             </div>
             <div className="UserName">
             <div className="para">
-            <p><strong>Gaurab G</strong></p>
+            <p><strong>Anika</strong></p>
 
             </div>
 
