@@ -3,7 +3,7 @@ import './Footer.css';
 import logo from '../bbb.jpg';
 import logo1 from './fb.jpg';
 import logo2 from './ins.jpg';
-import logo3 from './th.jpg';
+import logo3 from './th.png';
 import logo4 from './twitter.jpg';
 
 function Footer() {
@@ -77,19 +77,19 @@ function Footer() {
             <h4>Social</h4>
         <div className="uiList">
             <ul><li>
-                <a href="www.facebook.com"><img src={logo1}/></a>
+                <a href="https://www.facebook.com/anika.sapkota/"><img src={logo1}/></a>
             </li>
 
             <li>
-                <a href="www.gmail.com"><img src={logo2}/></a>
+                <a href="https://www.linkedin.com/in/anika-sapkota-b430771a0/"><img src={logo3}/></a>
             </li>
 
             <li>
-                <a href="www.twitter.com"><img src={logo4}/></a>
+                <a href="https://twitter.com/anika_sapkota"><img src={logo4}/></a>
             </li>
 
             <li>
-                <a href="www.instagram.com"><img src={logo3}/></a>
+                <a href="https://www.instagram.com/anika_sapkota"><img src= {logo2}/></a>
             </li>
             </ul>
         </div>
